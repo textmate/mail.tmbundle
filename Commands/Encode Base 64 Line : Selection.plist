@@ -5,7 +5,7 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>${TM_RUBY:-ruby} -e 'print [STDIN.read].pack("m*")'</string>
+	<string>ruby -e 'print [STDIN.read].pack("m*")'</string>
 	<key>fallbackInput</key>
 	<string>line</string>
 	<key>input</key>
