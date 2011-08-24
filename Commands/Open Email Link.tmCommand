@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/bin/bash
+open "mailto:$(cat)"
+</string>
+	<key>fallbackInput</key>
+	<string>scope</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string></string>
+	<key>name</key>
+	<string>Open Email Link</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>scope</key>
+	<string>markup.underline.link.email</string>
+	<key>uuid</key>
+	<string>95C518A6-633C-4ED7-B602-FA33ACA33955</string>
+</dict>
+</plist>
